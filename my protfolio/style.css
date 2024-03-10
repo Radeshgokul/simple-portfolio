@@ -1,0 +1,191 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: cyan;
+}
+nav {
+    display:flex;
+    justify-content: flex-end;;
+    padding: 20px;
+   
+}
+nav a {
+    color: dimgrey;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 20px;
+    transition: 0.5s;
+}
+nav a:hover {
+    color: cyan;
+    background-color: black;
+    border-radius: 50px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px cyan;
+}
+.home {
+color: cyan;
+margin-top: 150px;
+margin-right: 50px;
+max-width: 880px;
+clear: right;
+float: right;
+}
+
+ .png{
+    float: left;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px cyan;
+    transition: transform 0.5s ease-in-out;
+    margin-top: 50px;
+    animation: image 2s ease-in-out forwards;
+}
+@keyframes image {
+    0% {
+        color: transparent;
+        transform: translateY(40px);
+    }
+    100% {
+        color: cyan;
+        transform: translateY(0);
+    }
+}
+
+#head{
+    color: transparent;
+    margin-left: 140px;
+    margin-top: 10px;
+    font-weight: 1000;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: textFadeIn 2s ease-in-out forwards;
+    text-shadow: 0px 0px 4px;
+}
+@keyframes textFadeIn {
+    0% {
+        color: transparent;
+        transform: translateY(0px);
+    }       
+    100% {
+        color: cyan;
+        transform: translateY(20px);
+    }
+}
+.about{
+    margin-top: 750px;
+    padding: 0px;
+    margin-left: 100px;
+}
+#heading{
+    text-align: center;
+}
+#tex {
+    text-shadow: 0 0 10px cyan;
+    font-weight: bold;
+    
+}
+.navi{
+    position: fixed;
+}
+.education {
+    margin-top: 730px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.skillbox {
+    width: 90%;
+    height: 300px;
+    border: 1px solid lightcyan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.skill {
+    width: 40%;
+    margin-bottom: 20px;
+}
+.progress {
+    background-color:darkblue;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 5px;
+}
+.progress-bar {
+    background-color: cyan;
+    border-radius: 5px;
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.details div {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+.details,img{
+    border-radius: 50%;
+}
+.icon ,img {
+    border-radius: 50%;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.icon:hover img{
+    transform: scaleX(1.1);
+}
+.Contact {
+    margin-top: 330px;
+    margin-bottom: 100px;
+    padding: 20px;
+    margin-left: 100px;
+    text-align: center;
+}
+.contact-details {
+    margin-bottom: 20px;
+}
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+.social-icons img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: cyan;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.button:hover {
+    background-color: lightseagreen;
+}
